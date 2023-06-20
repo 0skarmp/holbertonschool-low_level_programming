@@ -10,8 +10,8 @@
 
 int main(void)
 {
-int oskar
-for(oskar = '0'; oskar <= '10'; oskar++)
+int oskar;
+for (oskar = '0'; oskar <= '9'; oskar++)
 putchar(oskar);
 putchar('\n');
 return (0);
