@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 /**
  * main - print characters with putchar
@@ -16,7 +17,7 @@ int main(void)
 		putchar(low);
 	for (low = 'A'; low <= 'Z'; low++)
 		putchar(low);
-	putchar('\n');
+	write('\n');
 
 	return (0);
 }
