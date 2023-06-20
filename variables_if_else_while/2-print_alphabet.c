@@ -1,23 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <unistd.h>
 
 /**
- * main - print characters with putchar
+ * main - print character
  *
  * Return: zero
  */
 
 int main(void)
 {
-	char low;
+char oskar;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
-	write('\n');
+ for (oskar = 'a'; oskar <= 'z'; oskar++)
+   {
+     putchar(oskar);
+   }
+ putchar('\n');
 
-	return (0);
+ return (0);
 }
