@@ -11,12 +11,10 @@
 int main(void)
 {
 char oskar;
-
- for (oskar = 'a'; oskar <= 'z'; oskar++)
-   {
-     putchar(oskar);
-   }
- putchar('\n');
-
- return (0);
+for (oskar = 'a'; oskar <= 'z'; oskar++)
+{
+putchar(oskar);
+}
+putchar('\n');
+return (0);
 }
