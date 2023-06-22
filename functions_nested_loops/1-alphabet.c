@@ -13,3 +13,4 @@ print_alphabet(oskar);
 oskar++;
 }
 print_alphabet('\n');
+}
