@@ -13,7 +13,7 @@ char oskar;
 time = 0;
 while (time < 10)
 {
-oskar = "a";
+oskar = 'a';
 while (oskar <= 'z')
 {
 _putchar(oskar);
