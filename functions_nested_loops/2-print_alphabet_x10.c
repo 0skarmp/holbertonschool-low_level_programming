@@ -8,16 +8,18 @@
 */
 void print_alphabet_x10(void)
 {
-int time = 0;
-char oskar = 'a';
+int time;
+char oskar;
+time = 0;
 while (time < 10)
 {
+oskar = "a";
 while (oskar <= 'z')
 {
 _putchar(oskar);
 oskar++;
 }
 _putchar('\n');
- time++;
+time++;
 }
 }
