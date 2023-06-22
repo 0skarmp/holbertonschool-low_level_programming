@@ -11,10 +11,7 @@ int i;
 char letras[8] = "_putchar";
 
 for (i = 0; i < 8; i++)
-{
 _putchar(letras[i];
-}
-
-_putchar("\n");
+_putchar('\n');
 return (0);
 }
