@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - alphabet lowecase
+ * print_alphabet lowecase
  *
- * Description: print  lowercase
+ * Description: this  program  lowercase
  *
  * Return: none
  */
