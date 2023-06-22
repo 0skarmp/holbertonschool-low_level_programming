@@ -3,14 +3,16 @@
  * print_alphabet - Entry point
  * Return:0
  */
-void print_alphabet(void)
+int main(void)
 {
 char oskar = 'a'
 
 while (oskar <= 'z')
 {
-_putchar(oskar);
+print_alphabet(oskar);
 oskar++;
 }
-_putchar('\n');
+print_alphabet('\n');
+return(0);
 }
+
