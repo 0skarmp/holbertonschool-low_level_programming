@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main -ENTRY POINT
  *
@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("e");
-	_putchar("r");
+int i;
+char letras[8] = "_putchar";
 
-	return (0);
+for (i = 0; i < 8; i++)
+{
+_putchar(letras[i];
+}
+
+_putchar("\n");
+return (0);
 }
