@@ -9,9 +9,9 @@ char oskar = 'a'
 
 while (oskar <= 'z')
 {
-print_alphabet(oskar);
+_putchar(oskar);
 oskar++;
 }
-print_alphabet('\n');
+_putchar('\n');
 return (0);
 }
