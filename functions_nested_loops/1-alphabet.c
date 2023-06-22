@@ -13,6 +13,5 @@ print_alphabet(oskar);
 oskar++;
 }
 print_alphabet('\n');
-return(0);
+return (0);
 }
-
