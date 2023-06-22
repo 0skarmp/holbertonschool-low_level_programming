@@ -5,7 +5,7 @@
  */
 void print_alphabet(void)
 {
-char oskar = "a"
+char oskar = 'a'
 
 while (oskar <= 'z')
 {
