@@ -3,13 +3,13 @@
  * main: alphabet lowecase
  * Return: none
  */
-int main(void)
+void print_alphabet(void)
 {
-char c = 'a'
+char oskar = 'a'
 
-while (c <= 'z')
+while (oskar <= 'z')
 {
-_putchar(c);
+_putchar(oskar);
 oskar++;
 }
 _putchar('\n');
