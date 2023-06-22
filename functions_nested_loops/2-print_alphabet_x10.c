@@ -9,15 +9,15 @@
 void print_alphabet_x10(void)
 {
 int time = 0;
-char oskar = "a";
+char oskar = 'a';
 while (time < 10)
 {
-while (oskar <= "z")
+while (oskar <= 'z')
 {
 _putchar(oskar);
 oskar++;
 }
-putchar ('\n');
-time++
+_putchar('\n');
+ time++;
 }
 }
