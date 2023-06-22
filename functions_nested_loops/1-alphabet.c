@@ -5,9 +5,11 @@
  */
 void print_alphabet(void)
 {
-char oskar = "a";
+char oskar = "a"
 
-for (oskar = a; oskar <= z; oskarii)
-print_alphatbet(oskar);
-print_alphatbet('/n');
+while (oskar <= 'z')
+{
+print_alphabet(oskar);
+oskar++;
 }
+print_alphabet('\n');
