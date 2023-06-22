@@ -1,21 +1,14 @@
-#include "main.h"
-#include <unistd.h>
+#include<stdio.h>
+
 /**
- * main -ENTRY POINT
+ *main - starting program
  *
- * Return: Always 0
+ *Description: prints _putchar
+ *
+ *Return: ZERO
  */
 int main(void)
-	{
-	
-	int i;
-	char *letras = "_putchar";
-
-	for (i = 0; i < 8; i++)
-	
-		_putchar(letras[i];
-	_putchar('\n');
-	
-	return (0);
-	
-	}
+{
+printf("_putchar"\n");
+return (0);
+}
