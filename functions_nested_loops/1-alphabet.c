@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-char k = 'a'
+char c = 'a'
 
-while (k <= 'z')
+while (c <= 'z')
 {
-_putchar(k);
+_putchar(c);
 oskar++;
 }
 _putchar('\n');
