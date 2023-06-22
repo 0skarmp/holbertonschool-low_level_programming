@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
- * Return:0
+ * main: alphabet lowecase
+ * Return: none
  */
 int main(void)
 {
@@ -13,5 +13,4 @@ _putchar(oskar);
 oskar++;
 }
 _putchar('\n');
-return (0);
 }
