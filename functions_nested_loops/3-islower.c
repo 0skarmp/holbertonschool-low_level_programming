@@ -1,21 +1,16 @@
 #include"main.h"
 
 /**
-* main - print in lowercase
+* _islowercase - check for lowercase character,
+* if c is lowercase print 1, 0 otherwisewise..
 *
-* Description: print _islowercase - if c is lowercase, 0 otherwise,
-* followed by a new line.
-*
-* Return: 1 if c is lowercase,other wise 0.
+* Return: 1 if c is lowercase,other wise 0
 */
 int _islowercase(int c)
 {
-if (c >= 'a' && c <= 'z')
+if (c >= 97  && c <= 122)
 {
 return (1);
 }
-else
-{
 return (0);
-}
 }
