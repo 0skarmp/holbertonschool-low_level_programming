@@ -15,4 +15,5 @@ int _islowercase(int c)
 	else
 
 		_putchar(0);
+return (0);
 }
