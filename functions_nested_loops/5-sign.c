@@ -7,7 +7,7 @@
  * Return: 1 if number is positive, o if number is 0, or
  * -1 if number is negative
  */
-int main(void)
+int print(int n)
 {
 if (n > 0)
 {
