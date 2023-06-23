@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-char oskar;
-for (oskar = '0'; oskar <= '9'; oskar++)
+int w;
+for (w = '0'; w <= '9'; w++)
 {
-putchar(oskar);
-if (oskar != '9')
+putchar(w);
+if (w != '9')
 {
 putchar(',');
 putchar(' ');
