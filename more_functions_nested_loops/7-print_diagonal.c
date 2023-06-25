@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line -  function that draws a straight line in the terminal.
+ * print_diagonal -  function to print a slash  in the terminal.
  * followed by a new line.
  * @n: An input integer
  * Return: Always 0
