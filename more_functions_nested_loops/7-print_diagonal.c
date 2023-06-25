@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * print_diagonal -  function to print a slash in the terminal.
+ * print_line -  function that draws a straight line in the terminal.
  * followed by a new line.
  * @n: An input integer
  * Return: Always 0
  */
 void print_diagonal(int n)
 {
-	int i = 0;
+  int i = 0, s;
 
 	if (n > 0)
 	{
 		for (; i < n; i++)
-			_putchar('/');
+			_putchar(92);
 	}
-	_putchar('\n');
+       for (s = '0'; s < n; s++)
+_putchar(92);
+       _putchar(' ');
+_putchar('\n');
 }
