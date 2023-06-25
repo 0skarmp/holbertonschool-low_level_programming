@@ -1,12 +1,9 @@
 #include "main.h"
-
 /**
- * Print-number: print the numbers from 0 to 9 in a new line.
- * @oskar have a value 0
- * @void value of variable
- * Return: always zero
+ * print_numbers - a function that prints the numbers, from 0 to 9,
+ * followed by a new line.
+ * Return: Always 0
  */
-
 void print_numbers(void)
 {
 int oskar;
