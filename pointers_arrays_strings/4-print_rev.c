@@ -15,7 +15,7 @@ int y, alm, i;
 
 	while (s[y] != 0)
 	{
-		y++
+		y++;
 	}
 
 	alm = y - 1;
