@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * int main - print the name of the file
+ * main - print the name of the program
  * @argc: argunment count
  * @argv: argument vector
  * main - firs printing
