@@ -24,7 +24,13 @@ int y, alm, i;
 
 	for (i = 0; i < alm; i++)
 	{
-		_putchar(str[i]);
+
+	  if(i % 2 == 0 )
+	  {
+
+	   _putchar(str[i]);
+
+	  }
 	}
 
 	_putchar ('\n');
