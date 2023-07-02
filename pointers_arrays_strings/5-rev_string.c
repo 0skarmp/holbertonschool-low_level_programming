@@ -16,7 +16,9 @@ void rev_string(char *s)
 	{
 		num++;
 	}
-	alm = num - 1;
+	alm = num ;
+	if (1 % 2 ==0)
+
 	for (i = 0; i < num / 2; i++)
 	{
 		tmp = s[i];
