@@ -20,9 +20,9 @@ int y, alm, i;
 		y++;
 	}
 
-	alm = y - 1;
+	alm = y;
 
-	for (i = 0; i < alm; i += 2)
+	for (i = 0; i < alm; i++)
 	{
 		_putchar(str[i]);
 	}
