@@ -2,6 +2,13 @@
 #include "dog.h"
 
 /**
+ * print_dog - Print all the details of the struct of the dog
+ * @d: pointers of the dog
+ * Description: priting the name, age, owner of the dog
+ *
+ *If any of the fields of the struct is NULL, print "(nil)".
+ *
+ *if d is NULL, not print anything
  */
 void print_dog(struct dog *d)
 {
