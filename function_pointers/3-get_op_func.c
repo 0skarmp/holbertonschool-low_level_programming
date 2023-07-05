@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <3-calc.h>
+#include "3-calc.h"
 
 /**
  * get_op_func - choose the correct function to perform the operation
@@ -24,7 +24,7 @@ op_t ops[] = {
     {
         if (*s == *ops[i].op)
 	  {
-	  return (*(ops[i].f);
+	    return (*(ops[i].f));
        }
 	    i++;
 	  }
